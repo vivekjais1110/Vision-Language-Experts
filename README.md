@@ -1,4 +1,4 @@
-# 🚀 Backend Developer Assessment (Vision Language Expert)
+# 🚀 Backend Developer Assessment (Vision Language Experts)
 
 A backend system for managing Users and Asset Management System Specification, powered by **Node.js**, **Express**, **JWT Authentication**, and **MySQL** with **Sequelize ORM**.
 

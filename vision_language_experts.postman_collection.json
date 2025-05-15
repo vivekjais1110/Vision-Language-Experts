@@ -1,0 +1,1224 @@
+{
+	"info": {
+		"_postman_id": "6e7389c3-4006-4de4-90c8-33be4fc61c78",
+		"name": "vision_language_experts",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "38312840"
+	},
+	"item": [
+		{
+			"name": "Register",
+			"item": [
+				{
+					"name": "http://localhost:6000/api/v1/register",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"email\": \"vivekjais@gmail.com\",\r\n  \"password\": \"vivekjais@123\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:6000/api/v1/register",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "6000",
+							"path": [
+								"api",
+								"v1",
+								"register"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "http://localhost:6000/api/v1/register",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"email\": \"vivekjais@gmail.com\",\r\n  \"password\": \"vivekjais@123\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:6000/api/v1/register",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "6000",
+									"path": [
+										"api",
+										"v1",
+										"register"
+									]
+								}
+							},
+							"status": "Created",
+							"code": 201,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "227"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"e3-CwNsy3C7xZttlCV924GnXYcp1pU\""
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 15 May 2025 19:11:17 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"message\": \"User registered\",\n    \"user\": {\n        \"id\": 2,\n        \"email\": \"vivekjais@gmail.com\",\n        \"password\": \"$2b$10$5tPJIoZyiwMeldEiQnFAPe4ClysaqmD1vn7qiWepsn91CVXPHygsS\",\n        \"updatedAt\": \"2025-05-15T19:11:17.585Z\",\n        \"createdAt\": \"2025-05-15T19:11:17.585Z\"\n    }\n}"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Login",
+			"item": [
+				{
+					"name": "http://localhost:6000/api/v1/login",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"email\": \"vivekjais@gmail.com\",\r\n  \"password\": \"vivekjais@123\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:6000/api/v1/login",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "6000",
+							"path": [
+								"api",
+								"v1",
+								"login"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "http://localhost:6000/api/v1/login",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"email\": \"vivekjais@gmail.com\",\r\n  \"password\": \"vivekjais@123\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:6000/api/v1/login",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "6000",
+									"path": [
+										"api",
+										"v1",
+										"login"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "178"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"b2-TT3PXocc3J4augZuqq3uLB615ww\""
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 15 May 2025 19:12:51 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"message\": \"Login successful\",\n    \"token\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MiwiaWF0IjoxNzQ3MzM2MzcxLCJleHAiOjE3NDczMzk5NzF9.eOMtzGIDzPpcjaUlE8oIu4H9CQaD7h_7ieDjxZotRU0\"\n}"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Create ASSET",
+			"item": [
+				{
+					"name": "create asset",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "authorization",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNzQ3MzM1MjkxLCJleHAiOjE3NDczMzg4OTF9.QYycNy8krErDihRKfxwge9GR5OnWSx6kMkDLPQB9U_E",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "name",
+									"value": "Laptop Dell XPS 15",
+									"type": "text"
+								},
+								{
+									"key": "code",
+									"value": "LAPTOP-XPS15-2025",
+									"type": "text"
+								},
+								{
+									"key": "category",
+									"value": "Electronics",
+									"type": "text"
+								},
+								{
+									"key": "cwipInvoiceId",
+									"value": "CWIP-INV-12345",
+									"type": "text"
+								},
+								{
+									"key": "location",
+									"value": "Office - Floor 3",
+									"type": "text"
+								},
+								{
+									"key": "status",
+									"value": "In Use",
+									"type": "text"
+								},
+								{
+									"key": "condition",
+									"value": "Good",
+									"type": "text"
+								},
+								{
+									"key": "brand",
+									"value": "Dell",
+									"type": "text"
+								},
+								{
+									"key": "model",
+									"value": "XPS 15 9500",
+									"type": "text"
+								},
+								{
+									"key": "linkedAssetId",
+									"value": "102",
+									"type": "text"
+								},
+								{
+									"key": "description",
+									"value": "Work laptop assigned to John Doe",
+									"type": "text"
+								},
+								{
+									"key": "vendorName",
+									"value": "Tech Supplies Ltd.",
+									"type": "text"
+								},
+								{
+									"key": "poNumber",
+									"value": "PO-67890",
+									"type": "text"
+								},
+								{
+									"key": "invoiceDate",
+									"value": "2024-12-15",
+									"type": "text"
+								},
+								{
+									"key": "invoiceNo",
+									"value": "INV-23456",
+									"type": "text"
+								},
+								{
+									"key": "purchaseDate",
+									"value": "2024-12-20",
+									"type": "text"
+								},
+								{
+									"key": "purchasePrice",
+									"value": "1500.50",
+									"type": "text"
+								},
+								{
+									"key": "ownership",
+									"value": "Company Owned",
+									"type": "text"
+								},
+								{
+									"key": "capitalizationPrice",
+									"value": "1400.00",
+									"type": "text"
+								},
+								{
+									"key": "endOfLife",
+									"value": "2030-12-31",
+									"type": "text"
+								},
+								{
+									"key": "capitalizationDate",
+									"value": "2024-12-25",
+									"type": "text"
+								},
+								{
+									"key": "depreciationPercent",
+									"value": "20",
+									"type": "text"
+								},
+								{
+									"key": "accumulatedDepreciation",
+									"value": "300",
+									"type": "text"
+								},
+								{
+									"key": "scrapValue",
+									"value": "100",
+									"type": "text"
+								},
+								{
+									"key": "incomeTaxDepreciationPercent",
+									"value": "15",
+									"type": "text"
+								},
+								{
+									"key": "images",
+									"type": "file",
+									"src": [
+										"postman-cloud:///1f031bde-b1c8-4460-8c89-a8cc16bd7638",
+										"postman-cloud:///1f031bde-5a19-4fc0-baa2-f7a250c51299"
+									]
+								},
+								{
+									"key": "documents",
+									"type": "file",
+									"src": [
+										"postman-cloud:///1f031be0-10f6-49e0-9605-cacad484e2c6",
+										"postman-cloud:///1f031bdf-634f-40d0-be71-43593fb1f488"
+									]
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:6000/api/v1/asset_create",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "6000",
+							"path": [
+								"api",
+								"v1",
+								"asset_create"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "create asset example",
+							"originalRequest": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "authorization",
+										"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNzQ3MzM1MjkxLCJleHAiOjE3NDczMzg4OTF9.QYycNy8krErDihRKfxwge9GR5OnWSx6kMkDLPQB9U_E",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "name",
+											"value": "Laptop Dell XPS 15",
+											"type": "text"
+										},
+										{
+											"key": "code",
+											"value": "LAPTOP-XPS15-2025",
+											"type": "text"
+										},
+										{
+											"key": "category",
+											"value": "Electronics",
+											"type": "text"
+										},
+										{
+											"key": "cwipInvoiceId",
+											"value": "CWIP-INV-12345",
+											"type": "text"
+										},
+										{
+											"key": "location",
+											"value": "Office - Floor 3",
+											"type": "text"
+										},
+										{
+											"key": "status",
+											"value": "In Use",
+											"type": "text"
+										},
+										{
+											"key": "condition",
+											"value": "Good",
+											"type": "text"
+										},
+										{
+											"key": "brand",
+											"value": "Dell",
+											"type": "text"
+										},
+										{
+											"key": "model",
+											"value": "XPS 15 9500",
+											"type": "text"
+										},
+										{
+											"key": "linkedAssetId",
+											"value": "102",
+											"type": "text"
+										},
+										{
+											"key": "description",
+											"value": "Work laptop assigned to John Doe",
+											"type": "text"
+										},
+										{
+											"key": "vendorName",
+											"value": "Tech Supplies Ltd.",
+											"type": "text"
+										},
+										{
+											"key": "poNumber",
+											"value": "PO-67890",
+											"type": "text"
+										},
+										{
+											"key": "invoiceDate",
+											"value": "2024-12-15",
+											"type": "text"
+										},
+										{
+											"key": "invoiceNo",
+											"value": "INV-23456",
+											"type": "text"
+										},
+										{
+											"key": "purchaseDate",
+											"value": "2024-12-20",
+											"type": "text"
+										},
+										{
+											"key": "purchasePrice",
+											"value": "1500.50",
+											"type": "text"
+										},
+										{
+											"key": "ownership",
+											"value": "Company Owned",
+											"type": "text"
+										},
+										{
+											"key": "capitalizationPrice",
+											"value": "1400.00",
+											"type": "text"
+										},
+										{
+											"key": "endOfLife",
+											"value": "2030-12-31",
+											"type": "text"
+										},
+										{
+											"key": "capitalizationDate",
+											"value": "2024-12-25",
+											"type": "text"
+										},
+										{
+											"key": "depreciationPercent",
+											"value": "20",
+											"type": "text"
+										},
+										{
+											"key": "accumulatedDepreciation",
+											"value": "300",
+											"type": "text"
+										},
+										{
+											"key": "scrapValue",
+											"value": "100",
+											"type": "text"
+										},
+										{
+											"key": "incomeTaxDepreciationPercent",
+											"value": "15",
+											"type": "text"
+										},
+										{
+											"key": "images",
+											"type": "file",
+											"src": [
+												"postman-cloud:///1f031bde-b1c8-4460-8c89-a8cc16bd7638",
+												"postman-cloud:///1f031bde-5a19-4fc0-baa2-f7a250c51299"
+											]
+										},
+										{
+											"key": "documents",
+											"type": "file",
+											"src": [
+												"postman-cloud:///1f031be0-10f6-49e0-9605-cacad484e2c6",
+												"postman-cloud:///1f031bdf-634f-40d0-be71-43593fb1f488"
+											]
+										}
+									]
+								},
+								"url": {
+									"raw": "http://localhost:6000/api/v1/asset_create",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "6000",
+									"path": [
+										"api",
+										"v1",
+										"asset_create"
+									]
+								}
+							},
+							"status": "Created",
+							"code": 201,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "1301"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"515-C80T9TYY7lZeXjMHEZ9CSTsGMoQ\""
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 15 May 2025 19:03:32 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"message\": \"Asset created successfully\",\n    \"data\": {\n        \"id\": 1,\n        \"userId\": 1,\n        \"name\": \"Laptop Dell XPS 15\",\n        \"imagePaths\": [\n            \"D:\\\\vision_language_expert\\\\uploads\\\\images\\\\1747335812162-Screenshot 2024-11-20 225820.png\",\n            \"D:\\\\vision_language_expert\\\\uploads\\\\images\\\\1747335812165-Screenshot 2024-11-20 225857.png\"\n        ],\n        \"code\": \"LAPTOP-XPS15-2025\",\n        \"category\": \"Electronics\",\n        \"cwipInvoiceId\": \"CWIP-INV-12345\",\n        \"location\": \"Office - Floor 3\",\n        \"status\": \"In Use\",\n        \"condition\": \"Good\",\n        \"brand\": \"Dell\",\n        \"model\": \"XPS 15 9500\",\n        \"linkedAssetId\": \"102\",\n        \"description\": \"Work laptop assigned to John Doe\",\n        \"filePaths\": [\n            {\n                \"path\": \"D:\\\\vision_language_expert\\\\uploads\\\\documents\\\\1747335812177-Web Scraping with Node.docx\",\n                \"category\": \"Web Scraping with Node.docx\"\n            },\n            {\n                \"path\": \"D:\\\\vision_language_expert\\\\uploads\\\\documents\\\\1747335812178-Vineet_Resume_QA.docx\",\n                \"category\": \"Vineet\"\n            }\n        ],\n        \"vendorName\": \"Tech Supplies Ltd.\",\n        \"poNumber\": \"PO-67890\",\n        \"invoiceDate\": \"2024-12-15\",\n        \"invoiceNo\": \"INV-23456\",\n        \"purchaseDate\": \"2024-12-20\",\n        \"purchasePrice\": \"1500.50\",\n        \"ownership\": \"Company Owned\",\n        \"capitalizationPrice\": \"1400.00\",\n        \"endOfLife\": \"2030-12-31\",\n        \"capitalizationDate\": \"2024-12-25\",\n        \"depreciationPercent\": \"20\",\n        \"accumulatedDepreciation\": \"300\",\n        \"scrapValue\": \"100\",\n        \"incomeTaxDepreciationPercent\": \"15\",\n        \"updatedAt\": \"2025-05-15T19:03:32.211Z\",\n        \"createdAt\": \"2025-05-15T19:03:32.211Z\"\n    }\n}"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "GET ASSET",
+			"item": [
+				{
+					"name": "get_asset",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "authorization",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNzQ3MzM2NjcwLCJleHAiOjE3NDczNDAyNzB9.BhDww3Spk5ksEqopGVku8j8mMiGzqrz7nmdNtWIDZgk",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:6000/api/v1/assets?status=In%20Use&category=Electronics",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "6000",
+							"path": [
+								"api",
+								"v1",
+								"assets"
+							],
+							"query": [
+								{
+									"key": "status",
+									"value": "In%20Use"
+								},
+								{
+									"key": "category",
+									"value": "Electronics"
+								}
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "get_asset",
+							"originalRequest": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "authorization",
+										"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNzQ3MzM2NjcwLCJleHAiOjE3NDczNDAyNzB9.BhDww3Spk5ksEqopGVku8j8mMiGzqrz7nmdNtWIDZgk",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "http://localhost:6000/api/v1/assets?status=In%20Use&category=Electronics",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "6000",
+									"path": [
+										"api",
+										"v1",
+										"assets"
+									],
+									"query": [
+										{
+											"key": "status",
+											"value": "In%20Use"
+										},
+										{
+											"key": "category",
+											"value": "Electronics"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "161"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"a1-47tTD0u5HqOM5Rb+8AQ6al8Qyjo\""
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 15 May 2025 19:25:32 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"assets\": [\n        {\n            \"name\": \"Laptop Dell XPS 15\",\n            \"code\": \"LAPTOP-XPS15-2025\",\n            \"category\": \"Electronics\",\n            \"location\": \"Office - Floor 3\",\n            \"status\": \"In Use\",\n            \"condition\": \"Good\"\n        }\n    ]\n}"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "UPDATE ASSET",
+			"item": [
+				{
+					"name": "update asset",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "authorization",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNzQ3MzM2NjcwLCJleHAiOjE3NDczNDAyNzB9.BhDww3Spk5ksEqopGVku8j8mMiGzqrz7nmdNtWIDZgk",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "name",
+									"value": "Laptop Dell XPS 14",
+									"type": "text"
+								},
+								{
+									"key": "code",
+									"value": "LAPTOP-XPS14-2025",
+									"type": "text"
+								},
+								{
+									"key": "category",
+									"value": "Electronics",
+									"type": "text"
+								},
+								{
+									"key": "cwipInvoiceId",
+									"value": "CWIP-INV-12345",
+									"type": "text"
+								},
+								{
+									"key": "location",
+									"value": "Office - Floor 3",
+									"type": "text"
+								},
+								{
+									"key": "status",
+									"value": "In Use",
+									"type": "text"
+								},
+								{
+									"key": "condition",
+									"value": "Good",
+									"type": "text"
+								},
+								{
+									"key": "brand",
+									"value": "Dell",
+									"type": "text"
+								},
+								{
+									"key": "model",
+									"value": "XPS 15 9500",
+									"type": "text"
+								},
+								{
+									"key": "linkedAssetId",
+									"value": "102",
+									"type": "text"
+								},
+								{
+									"key": "description",
+									"value": "Work laptop assigned to John Doe",
+									"type": "text"
+								},
+								{
+									"key": "vendorName",
+									"value": "Tech Supplies Ltd.",
+									"type": "text"
+								},
+								{
+									"key": "poNumber",
+									"value": "PO-67890",
+									"type": "text"
+								},
+								{
+									"key": "invoiceDate",
+									"value": "2024-12-15",
+									"type": "text"
+								},
+								{
+									"key": "invoiceNo",
+									"value": "INV-23456",
+									"type": "text"
+								},
+								{
+									"key": "purchaseDate",
+									"value": "2024-12-20",
+									"type": "text"
+								},
+								{
+									"key": "purchasePrice",
+									"value": "1500.50",
+									"type": "text"
+								},
+								{
+									"key": "ownership",
+									"value": "Company Owned",
+									"type": "text"
+								},
+								{
+									"key": "capitalizationPrice",
+									"value": "1400.00",
+									"type": "text"
+								},
+								{
+									"key": "endOfLife",
+									"value": "2030-12-31",
+									"type": "text"
+								},
+								{
+									"key": "capitalizationDate",
+									"value": "2024-12-25",
+									"type": "text"
+								},
+								{
+									"key": "depreciationPercent",
+									"value": "20",
+									"type": "text"
+								},
+								{
+									"key": "accumulatedDepreciation",
+									"value": "300",
+									"type": "text"
+								},
+								{
+									"key": "scrapValue",
+									"value": "100",
+									"type": "text"
+								},
+								{
+									"key": "incomeTaxDepreciationPercent",
+									"value": "15",
+									"type": "text"
+								},
+								{
+									"key": "images",
+									"type": "file",
+									"src": [
+										"postman-cloud:///1f031bde-b1c8-4460-8c89-a8cc16bd7638",
+										"postman-cloud:///1f031bde-5a19-4fc0-baa2-f7a250c51299"
+									]
+								},
+								{
+									"key": "documents",
+									"type": "file",
+									"src": [
+										"postman-cloud:///1f031be0-10f6-49e0-9605-cacad484e2c6",
+										"postman-cloud:///1f031bdf-634f-40d0-be71-43593fb1f488"
+									]
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:6000/api/v1/asset_update/5",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "6000",
+							"path": [
+								"api",
+								"v1",
+								"asset_update",
+								"5"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "update asset",
+							"originalRequest": {
+								"method": "PUT",
+								"header": [
+									{
+										"key": "authorization",
+										"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNzQ3MzM2NjcwLCJleHAiOjE3NDczNDAyNzB9.BhDww3Spk5ksEqopGVku8j8mMiGzqrz7nmdNtWIDZgk",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "name",
+											"value": "Laptop Dell XPS 14",
+											"type": "text"
+										},
+										{
+											"key": "code",
+											"value": "LAPTOP-XPS14-2025",
+											"type": "text"
+										},
+										{
+											"key": "category",
+											"value": "Electronics",
+											"type": "text"
+										},
+										{
+											"key": "cwipInvoiceId",
+											"value": "CWIP-INV-12345",
+											"type": "text"
+										},
+										{
+											"key": "location",
+											"value": "Office - Floor 3",
+											"type": "text"
+										},
+										{
+											"key": "status",
+											"value": "In Use",
+											"type": "text"
+										},
+										{
+											"key": "condition",
+											"value": "Good",
+											"type": "text"
+										},
+										{
+											"key": "brand",
+											"value": "Dell",
+											"type": "text"
+										},
+										{
+											"key": "model",
+											"value": "XPS 15 9500",
+											"type": "text"
+										},
+										{
+											"key": "linkedAssetId",
+											"value": "102",
+											"type": "text"
+										},
+										{
+											"key": "description",
+											"value": "Work laptop assigned to John Doe",
+											"type": "text"
+										},
+										{
+											"key": "vendorName",
+											"value": "Tech Supplies Ltd.",
+											"type": "text"
+										},
+										{
+											"key": "poNumber",
+											"value": "PO-67890",
+											"type": "text"
+										},
+										{
+											"key": "invoiceDate",
+											"value": "2024-12-15",
+											"type": "text"
+										},
+										{
+											"key": "invoiceNo",
+											"value": "INV-23456",
+											"type": "text"
+										},
+										{
+											"key": "purchaseDate",
+											"value": "2024-12-20",
+											"type": "text"
+										},
+										{
+											"key": "purchasePrice",
+											"value": "1500.50",
+											"type": "text"
+										},
+										{
+											"key": "ownership",
+											"value": "Company Owned",
+											"type": "text"
+										},
+										{
+											"key": "capitalizationPrice",
+											"value": "1400.00",
+											"type": "text"
+										},
+										{
+											"key": "endOfLife",
+											"value": "2030-12-31",
+											"type": "text"
+										},
+										{
+											"key": "capitalizationDate",
+											"value": "2024-12-25",
+											"type": "text"
+										},
+										{
+											"key": "depreciationPercent",
+											"value": "20",
+											"type": "text"
+										},
+										{
+											"key": "accumulatedDepreciation",
+											"value": "300",
+											"type": "text"
+										},
+										{
+											"key": "scrapValue",
+											"value": "100",
+											"type": "text"
+										},
+										{
+											"key": "incomeTaxDepreciationPercent",
+											"value": "15",
+											"type": "text"
+										},
+										{
+											"key": "images",
+											"type": "file",
+											"src": [
+												"postman-cloud:///1f031bde-b1c8-4460-8c89-a8cc16bd7638",
+												"postman-cloud:///1f031bde-5a19-4fc0-baa2-f7a250c51299"
+											]
+										},
+										{
+											"key": "documents",
+											"type": "file",
+											"src": [
+												"postman-cloud:///1f031be0-10f6-49e0-9605-cacad484e2c6",
+												"postman-cloud:///1f031bdf-634f-40d0-be71-43593fb1f488"
+											]
+										}
+									]
+								},
+								"url": {
+									"raw": "http://localhost:6000/api/v1/asset_update/5",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "6000",
+									"path": [
+										"api",
+										"v1",
+										"asset_update",
+										"5"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "1302"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"516-njb8Z7Xeomlf1MnkfbiKVs9RkWU\""
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 15 May 2025 19:33:26 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"message\": \"Asset Updated Successfully\",\n    \"asset\": {\n        \"id\": 5,\n        \"name\": \"Laptop Dell XPS 14\",\n        \"imagePaths\": [\n            \"D:\\\\vision_language_expert\\\\uploads\\\\images\\\\1747337606543-Screenshot 2024-11-20 225820.png\",\n            \"D:\\\\vision_language_expert\\\\uploads\\\\images\\\\1747337606546-Screenshot 2024-11-20 225857.png\"\n        ],\n        \"code\": \"LAPTOP-XPS14-2025\",\n        \"category\": \"Electronics\",\n        \"cwipInvoiceId\": \"CWIP-INV-12345\",\n        \"location\": \"Office - Floor 3\",\n        \"status\": \"In Use\",\n        \"condition\": \"Good\",\n        \"brand\": \"Dell\",\n        \"model\": \"XPS 15 9500\",\n        \"linkedAssetId\": \"102\",\n        \"description\": \"Work laptop assigned to John Doe\",\n        \"filePaths\": [\n            {\n                \"path\": \"D:\\\\vision_language_expert\\\\uploads\\\\documents\\\\1747337606551-Web Scraping with Node.docx\",\n                \"category\": \"Web Scraping with Node.docx\"\n            },\n            {\n                \"path\": \"D:\\\\vision_language_expert\\\\uploads\\\\documents\\\\1747337606551-Vineet_Resume_QA.docx\",\n                \"category\": \"Vineet\"\n            }\n        ],\n        \"vendorName\": \"Tech Supplies Ltd.\",\n        \"poNumber\": \"PO-67890\",\n        \"invoiceDate\": \"2024-12-15\",\n        \"invoiceNo\": \"INV-23456\",\n        \"purchaseDate\": \"2024-12-20\",\n        \"purchasePrice\": \"1500.50\",\n        \"ownership\": \"Company Owned\",\n        \"capitalizationPrice\": \"1400.00\",\n        \"endOfLife\": \"2030-12-31\",\n        \"capitalizationDate\": \"2024-12-25\",\n        \"depreciationPercent\": \"20\",\n        \"accumulatedDepreciation\": \"300\",\n        \"scrapValue\": \"100\",\n        \"incomeTaxDepreciationPercent\": \"15\",\n        \"userId\": 1,\n        \"createdAt\": \"2025-05-15T19:22:00.000Z\",\n        \"updatedAt\": \"2025-05-15T19:33:26.628Z\"\n    }\n}"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "DELETE ASSET",
+			"item": [
+				{
+					"name": "delete asset",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "authorization",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNzQ3MzM2NjcwLCJleHAiOjE3NDczNDAyNzB9.BhDww3Spk5ksEqopGVku8j8mMiGzqrz7nmdNtWIDZgk",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:6000/api/v1/asset_delete/5",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "6000",
+							"path": [
+								"api",
+								"v1",
+								"asset_delete",
+								"5"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "delete asset",
+							"originalRequest": {
+								"method": "DELETE",
+								"header": [
+									{
+										"key": "authorization",
+										"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNzQ3MzM2NjcwLCJleHAiOjE3NDczNDAyNzB9.BhDww3Spk5ksEqopGVku8j8mMiGzqrz7nmdNtWIDZgk",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "http://localhost:6000/api/v1/asset_delete/5",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "6000",
+									"path": [
+										"api",
+										"v1",
+										"asset_delete",
+										"5"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "40"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"28-qLhqdvvCzOu5Gh7R3LoJOVHfPSo\""
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 15 May 2025 19:38:57 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"message\": \"Asset Deleted Successfully\"\n}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

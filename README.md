@@ -31,8 +31,8 @@ Make sure you have the following tools installed:
 ### 🔁 Clone the Repository
 
 ```bash
-git clone https://github.com/vivekjais1110/IMARC-GROUP.git
-cd IMARC-GROUP
+git clone https://github.com/vivekjais1110/Vision-Language-Experts.git
+cd Vision-Language-Experts
 ```
 
 ### 📦 Install Dependencies
@@ -101,7 +101,7 @@ npm start
 
 📢 For complete API testing, import this collection into Postman:
 
-🔗 [Imarc.postman_collection.json](https://github.com/vivekjais1110/IMARC-GROUP/blob/main/Imarc.postman_collection.json)
+🔗 [vision_language_experts.postman_collection.json](https://github.com/vivekjais1110/Vision-Language-Experts/blob/main/vision_language_experts.postman_collection.json)
 
 ✅ Includes saved response examples for quick reference!
 
